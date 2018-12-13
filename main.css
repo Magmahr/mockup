@@ -1,24 +1,25 @@
-body {
-  background-image: url("./assets/bg_sized.jpg");
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-}
-
-#p1 {
+.navbar {
   font-family: sans-serif;
+  color: white;
+  z-index: 11;
+  width: 100vw;
   display: flex;
-  justify-content: center;
 }
 
-#p2 {
-  font-family: sans-serif;
+.inner-navbar {
+  justify-content: space-around;
+  align-items: center;
   display: flex;
-  justify-content: center;
+  white-space: nowrap;
+  float: left;
 }
 
-#footer {
-  font-family: arial;
+.navbutton {
+  margin-left: 10px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.footer {
+  height: 100px;
+}
+
+/*# sourceMappingURL=main.css.map */
